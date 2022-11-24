@@ -12,9 +12,11 @@
  */
 :root {
   --bs-blue: #0d6efd;
+  --bs-logoblue: #2b79a6;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
+  --bs-logopink:#ff4993; 
   --bs-red: #dc3545;
   --bs-orange: #f4623a;
   --bs-yellow: #ffc107;
