@@ -12,12 +12,9 @@
  */
 :root {
   --bs-blue: #0d6efd;
-  --bs-logoblue: #2b79a6;
-  --bs-babyblue: #9BD3DD;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
-  --bs-logopink:#ff4993; 
   --bs-red: #dc3545;
   --bs-orange: #f4623a;
   --bs-yellow: #ffc107;
@@ -36,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #9BD3DD;
+  --bs-primary: #f4623a;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -44,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 155,211,221;
+  --bs-primary-rgb: 244, 98, 58;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -2491,8 +2488,8 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  /*-webkit-print-color-adjust: exact;
+          color-adjust: exact;*/
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -11338,7 +11335,7 @@ hr.divider-light {
   background-color: #fff;
 }
 /*Contact Form*/
-/*html, body {
+html, body {
   min-height: 100%;
   }
   body, div, form, input, select { 
@@ -11349,7 +11346,7 @@ hr.divider-light {
   font-size: 14px;
   color: #666;
   line-height: 22px;
-  }*/
+  }
   h1, h4 {
   margin: 15px 0 4px;
   font-weight: 400;
@@ -11633,4 +11630,4 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
-}
+}}
