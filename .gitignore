@@ -23,3 +23,7 @@
 
 # Ignore all files in the 'source' folder.
 source/
+assets/img/db-masthead_big.jpg
+dist/
+node_modules/
+startbootstrap-creative
